@@ -1,0 +1,64 @@
+#mainbox {
+  z-index: 1;
+}
+
+.iconbox {
+  display: flex;
+  position: fixed;
+  width: 10%;
+  height: 250px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.itube__icon {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+.iconboxzip {
+  display: flex;
+  margin: 20px 0px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.iconboxzip i {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.iconboxzip:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.iconboxzip i:hover {
+  color: red;
+}
+
+.iconbox:nth-child(2) {
+  margin-top: 200px;
+  height: 260px;
+}
+
+.iconbox:nth-child(3) {
+  margin-top: 400px;
+  height: 270px;
+}
+
+.iconboxtitle {
+  margin: 20px 0px;
+}
+
+.iconboxzip img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.iconboxzip__userimg {
+  margin-right: 10px;
+}
+
+.iconbox:nth-child(4) {
+  margin-top: 620px;
+  height: 220px;
+}
